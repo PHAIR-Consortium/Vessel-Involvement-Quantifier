@@ -1,5 +1,12 @@
 # Vessel-Involvement-Quantifier
 
+Pancreatic ductal adenocarcinoma (PDAC) resectability assessment often suffers from inconsistent manual evaluations of vascular involvement in CT scans. This study introduces VasQNet, an AI model trained on a dataset of 613 CTs from PDAC patients and controls. VasQNet autonomously segments PDAC and vasculature, quantifies vascular involvement, and classifies resectability stages (resectable, borderline, or locally advanced) based on Dutch Pancreatic Cancer Group criteria. In testing, VasQNet demonstrated strong agreement with expert radiologist assessments, showing promise for enhancing the reliability and objectivity of PDAC resectability determinations in clinical settings.
+VasQNet makes the following contributions to the field:
+1. Automated Vascular Assessment: VasQNet automates the quantification of vascular involvement in PDAC using AI-segmented CT scans, reducing subjectivity. 
+2. Resectability Classification: VasQNet classifies PDAC into resectable, borderline resectable, or locally advanced stages, aiding treatment decisions. 
+3. Improved Consistency: By reducing interobserver variability, VasQNet enhances agreement among radiologists, leading to more reliable assessments.
+
+
 # Installation and Setup
 
 The VesselInvolvementQuantifier has been tested on MacOS (Monterey, Version 12.6) and Windows 11. We do not provide support for other operating systems.
